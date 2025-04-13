@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="palmGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8BC34A" />
+      <stop offset="100%" stop-color="#4CAF50" />
+    </linearGradient>
+    <linearGradient id="coconutGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c0a46d" />
+      <stop offset="100%" stop-color="#ab9158" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Circular Background -->
+  <circle cx="50" cy="50" r="48" fill="url(#bgGradient)" stroke="#c0a46d" stroke-width="2" />
+  
+  <!-- Palm Tree Group - Centered in the circle -->
+  <g transform="translate(38, 25) scale(1.5)">
+    <!-- Palm Leaves -->
+    <path fill="url(#palmGradient)" d="M12,2C11.05,2 10.25,2.74 10.13,3.69L8.85,12.04C8.46,12.8 7.5,13.89 6.92,14.54C6.38,15.16 6.21,15.71 6.09,16.28C5.96,16.94 6.06,17.63 6.34,18.25C6.68,19 7.27,19.64 8.05,20.06C8.87,20.5 9.8,20.67 10.72,20.55C11.72,20.4 12.55,19.96 13.16,19.23C13.88,18.36 14.4,17.11 14.89,16.28C15.3,15.57 16.04,14.25 16.5,13.23L18.26,5.53C18.5,4.66 17.88,3.92 17,4H16.24C15.47,3.05 14.1,2 12,2Z" />
+    
+    <!-- Coconuts -->
+    <circle cx="7" cy="18" r="1.2" fill="url(#coconutGradient)" />
+    <circle cx="12" cy="18" r="1.2" fill="url(#coconutGradient)" />
+  </g>
+</svg> 

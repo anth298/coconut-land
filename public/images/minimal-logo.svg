@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4b675" />
+      <stop offset="100%" stop-color="#c0a46d" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simple Coconut Icon - Just an abstracted shape -->
+  <path d="M25,10 C23,10 20,12 20,15 C20,19 23,22 27,22 C31,22 34,19 34,15 C34,12 31,10 29,10 L25,10 Z" fill="none" stroke="url(#goldGradient)" stroke-width="1.5" />
+  
+  <!-- Minimalist Palm Leaf -->
+  <path d="M27,5 C27,5 27,10 27,13 M27,10 C25,8 23,10 22,12 M27,10 C29,8 31,10 32,12" fill="none" stroke="url(#goldGradient)" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Elegant Text -->
+  <text x="45" y="23" font-family="Arial, sans-serif" font-weight="300" font-size="18" fill="url(#goldGradient)" letter-spacing="1.2">BẾN TRE</text>
+</svg> 

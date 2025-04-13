@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" width="100" height="40">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4b675" />
+      <stop offset="100%" stop-color="#c0a46d" />
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#388E3C" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simple Coconut Palm Icon -->
+  <g transform="translate(10, 5)">
+    <path d="M15,0 C14,0 13.2,0.8 13,1.9 L11.5,10 C11,10.7 10,11.5 9.3,12 C7.5,13.5 7.5,16.5 9.3,18 C11.1,19.5 14,19.5 15.8,18 C17.6,16.5 17.6,13.5 15.8,12 C15.1,11.5 14.1,10.7 13.6,10 L15,1.9 C15.2,0.8 14.4,0 13.5,0 L13,0 C12.5,1 11,0 10,0 L15,0 Z" fill="url(#greenGradient)" />
+    <circle cx="10" cy="16" r="1" fill="#5D4037" />
+    <circle cx="15" cy="16" r="1" fill="#5D4037" />
+  </g>
+  
+  <!-- Elegant Text -->
+  <g transform="translate(35, 22)">
+    <text font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="url(#goldGradient)" letter-spacing="1">Bến Tre</text>
+  </g>
+  
+  <!-- Simple Underline -->
+  <path d="M35,26 L75,26" stroke="url(#goldGradient)" stroke-width="1" />
+</svg> 
